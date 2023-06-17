@@ -1,0 +1,185 @@
+
+                                            /* HOME Page Css */
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.background-1{
+    background-color: #D4D4D4;
+}
+
+.hero-1{
+    min-height: 60vh;
+}
+.hero-1 h1 {
+    font-weight: 600;
+    font-size: 64px;
+    color: #000000;
+}
+
+.hero-1 h5 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.background-2{
+    background-color:#F5F5F5;
+}
+
+.txt{
+    font-weight: 500;
+    color: #000000;
+}
+
+.txt-1{
+    font-weight: 500;
+    color: #9F9F9F;
+}
+
+.Action{
+    background-color: #A5A5A5;
+}
+
+.Action h2{
+    font-weight: 700;
+}
+
+
+.line{
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    color: #000000;
+}
+
+.CTC{
+    height: 350px;
+}
+
+.CTC h2{
+    font-weight: 700
+}
+
+.logo{
+    text-align: center;
+}
+
+.thin{
+    color: #9F9F9F;
+}
+
+.footer ul{
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+
+                                            /* SHOP Page css */
+
+ .banner{
+    height: 316px;
+    background: url(../images/BG.png) no-repeat center;
+    background-size: cover;
+ }
+
+ .banner h2{
+    font-weight: 700;
+ }
+
+ .action{
+    background-color:  #D4D4D4;
+ }
+
+ .action h6{
+    padding-top: 1%;
+ }
+
+ .one{
+    text-decoration: none;
+    color: #000000;
+ }
+
+ .text{
+    text-decoration: none;
+    color: #000000;
+ }
+ .bt1{
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+ }
+
+ .bt2{
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+ }
+
+ .background-3{
+    background-color:  #D4D4D4;
+ }
+
+ .background-3 h3{
+    font-weight: 600;
+    color:#000000;
+ }
+
+ .background-3 p{
+    font-weight: 400px;
+    color:#000000;
+    font-family: 'Poppins';
+ }
+
+ .products p{
+    font-weight: 400;
+ }
+
+ .products h4{
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Poppins';
+ }
+
+
+                                     /* Products Page Css */
+
+.headpage-1 a{
+    text-decoration: none;
+    color: #000000;
+}
+.headpage-2 ul li{
+    list-style: none;
+}
+.headpage-2 .p1{
+    font-size: 25px;
+}
+.headpage-2 .p2{
+    font-weight: 600;
+}
+.Cart a{
+    text-decoration: none;
+    color: #000000;
+}
+.ctc1{
+    align-items: justify;
+}
+
+
+
+
+
+
+
+ /* Media Query */
+
+ @media (max-width: 992px) {         /*Home Page media query*/
+    .nav-header{
+        display: none !important;
+    }
+
+    .img2{
+        width: 100%;
+        height: 100%;
+    }
+ }
+
